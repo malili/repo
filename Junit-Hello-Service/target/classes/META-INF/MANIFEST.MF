@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: junit.service.hello;version="1.0.0"
+Built-By: Administrator
+Tool: Bnd-1.43.0
+Bundle-Name: HelloSerive
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 1.0.0
+Build-Jdk: 1.6.0_23
+Bnd-LastModified: 1334115924183
+Bundle-ManifestVersion: 2
+Bundle-Activator: junit.service.hello.impl.Activator
+Import-Package: junit.service.hello,org.osgi.framework;version="[1.4,2
+ )"
+Bundle-SymbolicName: Junit-Hello-Service
+

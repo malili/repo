@@ -1,0 +1,2 @@
+Private-Package: junit.money, junit.example
+Test-Suite: junit.example.SimpleTestSuite

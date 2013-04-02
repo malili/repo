@@ -1,0 +1,17 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ant/ant/1.7.0/ant-1.7.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.2/junit-3.8.2.jar"/>
+  <classpathentry kind="src" path="/Junit-Hello-Service"/>
+  <classpathentry kind="var" path="M2_REPO/org/trustie/loong/specs/loong-dservice-api/1.0.0/loong-dservice-api-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/trustie/loong/modules/loong-dservice/loong-dservice-impl/1.0.0/loong-dservice-impl-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/trustie/loong/modules/loong-dservice/loong-dservice-metadata/1.0.0/loong-dservice-metadata-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/trustie/loong/modules/loong-dservice/loong-junit4osgi/1.0.1-SNAPSHOT/loong-junit4osgi-1.0.1-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/trustie/loong/specs/loong-logging-api/1.0.0/loong-logging-api-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/trustie/loong/modules/loong-utils/1.0.0/loong-utils-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/felix/org.osgi.compendium/1.2.0/org.osgi.compendium-1.2.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/felix/org.osgi.core/1.2.0/org.osgi.core-1.2.0.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+</classpath>

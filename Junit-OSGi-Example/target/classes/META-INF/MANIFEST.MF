@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: junit.example;uses:="junit.framework,org.trustie.loong
+ .dservice.junit4osgi,org.osgi.framework,junit.service.hello";version=
+ "1.0.0"
+Test-Suite: junit.example.SimpleTestSuite,junit.example.SimpleTestCase
+Built-By: Administrator
+Tool: Bnd-1.43.0
+Bundle-Name: HelloSerive::Test
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 1.0.0
+Build-Jdk: 1.6.0_23
+Bnd-LastModified: 1334117618165
+Bundle-ManifestVersion: 2
+Import-Package: junit.framework,junit.service.hello;version="[1.0,2)",
+ org.osgi.framework;version="[1.4,2)",org.trustie.loong.dservice.junit
+ 4osgi
+Bundle-SymbolicName: Junit-OSGi-Example
+

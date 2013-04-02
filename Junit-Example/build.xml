@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<project name="Junit-Example" default="package" basedir=".">
+	
+	<property name="src.dir" value="src"/>
+	<property name="lib.dir" value="libs"/>
+	<property name="build.dir" value="output/classes"/>
+	<property name="output.dir" value="output"/>
+	
+	<taskdef resource="aQute/bnd/ant/taskdef.properties"
+		      classpath="../tasks/bnd-0.0.249.jar"/>
+
+	<target name="clean">
+		<delete dir="${build.dir}"/>
+		<delete dir="${output.dir}"/>
+	</target>
+
+	<target name="compile">
+
+		<mkdir dir="${output.dir}"/>
+		<mkdir dir="${build.dir}"/>
+
+		<javac   srcdir="${src.dir}"
+		         destdir="${build.dir}"
+		         debug="on"
+
+				 classpath="lib/org.apache.felix.ipojo.junit4osgi-1.1.0-SNAPSHOT.jar"
+		  />
+	</target>
+
+	<target name="package" depends="compile">
+		<bnd
+	   	  classpath="${build.dir}" 
+	      failok="false" 
+	      exceptions="true" 
+	      files="${ant.project.name}.bnd"
+		  output="${output.dir}"/>
+	</target>
+
+</project>
