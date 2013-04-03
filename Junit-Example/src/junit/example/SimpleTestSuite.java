@@ -8,7 +8,7 @@ import junit.framework.TestSuite;
  * <p>测试suite。<p>
  * 
  * 创建日期 2013-4-3<br>
- * @author $Author$<br>
+ * @author $lili$<br>
  * @version $Revision$ $Date$
  * @since 3.0.0
  */

@@ -8,7 +8,7 @@ import junit.money.Money;
  * <p>测试类，继承自TestCase。<p>
  * 
  * 创建日期 2013-4-3<br>
- * @author $Author$<br>
+ * @author $lili$<br>
  * @version $Revision$ $Date$
  * @since 3.0.0
  */
